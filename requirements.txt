@@ -1,18 +1,10 @@
+streamlit
+pdfplumber
+langchain
+langchain-community
+langchain-text-splitters
+transformers
+torch
+sentence-transformers
+faiss-cpu
 
-
-streamlit==1.28.2
-pdfplumber==0.10.3
-torch==2.0.1
-transformers==4.33.2
-langchain==0.1.13
-langchain-community==0.0.24
-sentence-transformers==2.2.2
-
-
-streamlit : 			 Core framework for the UI
-pdfplumber : 			 For extracting text from PDF files
-torch :	      			 Backend used by Transformers models
-transformers :  		 To load HuggingFace models like flan-t5-small
-langchain	:           		 Used for chaining prompts and LLM responses
-langchain-community :	 For community integrations like FAISS, HuggingFaceEmbeddings
-sentence-transformers :	 To generate text embeddings for similarity search
